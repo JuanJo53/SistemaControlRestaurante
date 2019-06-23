@@ -11,10 +11,8 @@ class _WelcomePageState extends State<WelcomePage> {
     return Align(
       alignment: Alignment.topCenter,
       child: Padding(
-        padding: const EdgeInsets.only(top: 100.0),
-        child: Text('Welcome Page', style: TextStyle(fontSize: 32.0, color: Theme
-            .of(context)
-            .primaryColor,),),
+        padding: const EdgeInsets.only(top: 150.0),
+        child: Text('Welcome Page', style: TextStyle(fontSize: 55.0, color: Theme.of(context).primaryColor,),),
       ),
     );
   }
@@ -23,7 +21,7 @@ class _WelcomePageState extends State<WelcomePage> {
     return Align(
       alignment: Alignment.bottomCenter,
       child: Padding(
-        padding: const EdgeInsets.only(bottom: 225.0),
+        padding: const EdgeInsets.only(bottom: 350.0),
         child: Container(
           height: 150.0,
           width: 150.0,
@@ -64,19 +62,19 @@ class _WelcomePageState extends State<WelcomePage> {
     return Column(
       children: <Widget>[
         SizedBox(
-          width: 175.0,
-          height: 50.0,
+          width: 300.0,
+          height: 70.0,
           child: FlatButton(
               onPressed: (){},
               color: theme.primaryColor,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-              child: Text('INGRESAR', style: theme.primaryTextTheme.button,)
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(150.0)),
+              child: Text('INGRESAR',style: TextStyle(fontSize: 25.0,color: Colors.white))
           ),
         ),
         FlatButton(
             onPressed: (){},
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-            child: Text('REGISTRARSE', style: TextStyle(color: theme.primaryColor),)
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
+            child: Text('REGISTRARSE', style: TextStyle(fontSize: 18.0,color: theme.primaryColor),)
         )
       ],
     );
@@ -87,9 +85,9 @@ class _WelcomePageState extends State<WelcomePage> {
     return Scaffold(
       body: Stack(
         children: <Widget>[
-          buildTitle(context),
           buildCircle(),
           buildFrostedGlass(),
+          buildTitle(context),
         ],
       ),
     );
