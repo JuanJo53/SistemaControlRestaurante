@@ -150,16 +150,6 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                   SizedBox(
                     height: ScreenUtil.getInstance().setHeight(40),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      horizontalLine(),
-                      Text("Social Login",
-                          style: TextStyle(
-                              fontSize: 16.0, fontFamily: "Poppins-Medium")),
-                      horizontalLine()
-                    ],
-                  ),
                   SizedBox(
                     height: ScreenUtil.getInstance().setHeight(40),
                   ),
