@@ -13,14 +13,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      /*
-      * En esta parte del Home
-      * Se puede Cambiar Por las 2 Paginas de Welcome
-      * 1. WelcomePage()
-      * 2. SecondWelcome()
-      *
-      * SE DEBE ESCOGER LA MEJOR OPCION
-      * */
       home: SecondWelcome(),
     );
   }

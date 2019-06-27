@@ -39,7 +39,7 @@ class FormCard extends StatelessWidget {
                     fontSize: ScreenUtil.getInstance().setSp(26))),
             TextField(
               decoration: InputDecoration(
-                  hintText: "username",
+                  hintText: "Usuario",
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
             ),
             SizedBox(
@@ -52,7 +52,7 @@ class FormCard extends StatelessWidget {
             TextField(
               obscureText: true,
               decoration: InputDecoration(
-                  hintText: "Password",
+                  hintText: "Contraseña",
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),
             ),
             SizedBox(
