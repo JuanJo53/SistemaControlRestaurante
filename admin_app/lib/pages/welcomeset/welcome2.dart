@@ -1,6 +1,4 @@
-import 'package:admin_app/pages/welcomeset/CustomIcons.dart';
 import 'package:admin_app/pages/welcomeset/Widgets/FormCard.dart';
-import 'package:admin_app/pages/welcomeset/Widgets/SocialIcons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -60,7 +58,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.only(top: 20.0),
-                child: Image.asset("assets/image_01.png"),
+                child: Image.asset("assets/EPLC.jpg"),
               ),
               Expanded(
                 child: Container(),
@@ -80,7 +78,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                         width: ScreenUtil.getInstance().setWidth(110),
                         height: ScreenUtil.getInstance().setHeight(110),
                       ),
-                      Text("LOGO",
+                      Text("SISTEMA CENTRAL",
                           style: TextStyle(
                               fontFamily: "Poppins-Bold",
                               fontSize: ScreenUtil.getInstance().setSp(46),
@@ -89,7 +87,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                     ],
                   ),
                   SizedBox(
-                    height: ScreenUtil.getInstance().setHeight(180),
+                    height: ScreenUtil.getInstance().setHeight(290),
                   ),
                   FormCard(),
                   SizedBox(height: ScreenUtil.getInstance().setHeight(40)),
@@ -148,13 +146,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                     ],
                   ),
                   SizedBox(
-                    height: ScreenUtil.getInstance().setHeight(40),
-                  ),
-                  SizedBox(
-                    height: ScreenUtil.getInstance().setHeight(40),
-                  ),
-                  SizedBox(
-                    height: ScreenUtil.getInstance().setHeight(30),
+                    height: ScreenUtil.getInstance().setHeight(60),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -165,7 +157,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                       ),
                       InkWell(
                         onTap: () {},
-                        child: Text("Resgistrate",
+                        child: Text("Registrate",
                             style: TextStyle(
                                 color: Color(0xFF5d74e3),
                                 fontFamily: "Poppins-Bold")),
