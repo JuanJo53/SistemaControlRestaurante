@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309761105938",
+    "firebase_url": "https://admin-app-c59f2.firebaseio.com",
+    "project_id": "admin-app-c59f2",
+    "storage_bucket": "admin-app-c59f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309761105938:android:f8ab1877184e245e",
+        "android_client_info": {
+          "package_name": "com.carlitosart.admin_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309761105938-ffi93hub1lpkkl6m0f5j813ib19cf56f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carlitosart.admin_app",
+            "certificate_hash": "e8e53016253c6473afdcd5503dc39790842d0a87"
+          }
+        },
+        {
+          "client_id": "309761105938-kpq0rn16q3tgst7l7odooqjhep5jufoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk_qdLLYibOk1RiXHVGgW7ElL8Nqhqu0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309761105938-kpq0rn16q3tgst7l7odooqjhep5jufoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
