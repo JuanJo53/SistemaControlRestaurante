@@ -1,5 +1,4 @@
-import 'package:admin_app/pages/setup/welcome.dart';
-import 'package:admin_app/pages/setup/welcometwotest/welcome2.dart';
+import 'package:admin_app/pages/welcomeset/welcome2.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

@@ -1,6 +1,6 @@
-import 'package:admin_app/pages/setup/welcometwotest/CustomIcons.dart';
-import 'package:admin_app/pages/setup/welcometwotest/Widgets/FormCard.dart';
-import 'package:admin_app/pages/setup/welcometwotest/Widgets/SocialIcons.dart';
+import 'package:admin_app/pages/welcomeset/CustomIcons.dart';
+import 'package:admin_app/pages/welcomeset/Widgets/FormCard.dart';
+import 'package:admin_app/pages/welcomeset/Widgets/SocialIcons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -108,7 +108,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                           SizedBox(
                             width: 8.0,
                           ),
-                          Text("Remember me",
+                          Text("Recuerdame",
                               style: TextStyle(
                                   fontSize: 12, fontFamily: "Poppins-Medium"))
                         ],
@@ -134,7 +134,7 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                             child: InkWell(
                               onTap: () {},
                               child: Center(
-                                child: Text("SIGNIN",
+                                child: Text("ENTRAR",
                                     style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: "Poppins-Bold",
@@ -160,12 +160,12 @@ class _SecondWelcomeState extends State<SecondWelcome> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "New User? ",
+                        "Nuevo Ususario? ",
                         style: TextStyle(fontFamily: "Poppins-Medium"),
                       ),
                       InkWell(
                         onTap: () {},
-                        child: Text("SignUp",
+                        child: Text("Resgistrate",
                             style: TextStyle(
                                 color: Color(0xFF5d74e3),
                                 fontFamily: "Poppins-Bold")),
